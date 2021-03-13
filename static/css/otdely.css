@@ -1,0 +1,282 @@
+
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    
+    
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://i.ibb.co/jykyk1W/IMG-1883.jpg);
+     background-repeat: no-repeat;
+ 
+    background-position: center top;
+	background-size:cover;
+    
+    
+}
+
+.ex h1 {
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L;
+}
+
+
+.home-image h1 {
+	margin-bottom: 300px;
+	font-size: 50px ;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L;
+}
+
+
+.home-image h5 {
+	
+	font-size: 20px !important ;
+	
+}
+
+@media screen and (max-width:1000px) {
+
+.home-image h1 {
+	margin-bottom: 220px;
+	font-size: 30px !important;
+}
+
+.home-image h5 {
+ font-size: 15px !important;
+}
+
+}
+
+
+.carousel {
+    position: relative;
+    width: 40%;
+    position: ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.carousel-caption h5,p {
+	margin-left: 8% !important;
+	font-size: 40px;
+    
+}
+
+.carousel-indicators {
+	left: 8% !important;
+}
+
+
+@media screen and (max-width:1000px) {
+.carousel {
+    position: relative;
+    width: 100%;
+    position: ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+}
+
+
+.home1 {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    
+    
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://img.archiexpo.com.ru/images_ae/photo-g/153471-12216306.jpg);
+     background-repeat: no-repeat;
+ 
+    background-position: center top;
+	background-size:cover;
+    
+    
+}
+
+
+.home2 {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    
+    
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/static/bg/decor.jpg');
+     background-repeat: no-repeat;
+ 
+    background-position: center top;
+    background-size:cover;
+    
+    
+}
+
+
+.home3 {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    
+    
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/static/bg/grotto.jpg');
+     background-repeat: no-repeat;
+ 
+    background-position: center top;
+    background-size:cover;
+    
+    
+}
+
+.home4 {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    
+    
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://b2ctest.oikos-group.it/upload/12_ottocento-foto.jpg);
+     background-repeat: no-repeat;
+ 
+    background-position: center top;
+    background-size:cover;
+    
+    
+}
+
+.home5 {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    
+    
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://stekloholst.com/wa-data/public/blog/img/7-1.jpg);
+     background-repeat: no-repeat;
+ 
+    background-position: center top;
+    background-size:cover;
+    
+    
+}
+
+.home6 {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    
+    
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/static/bg/sahara2.jpg');
+     background-repeat: no-repeat;
+ 
+    background-position: center top;
+    background-size:cover;
+    
+    
+}
+
+.home7 {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    
+    
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://www.oboilux.ru/upload/decoratives/oikos/travertino_romano_design/TRD_03.jpg);
+     background-repeat: no-repeat;
+ 
+    background-position: center top;
+    background-size:cover;
+    
+    
+}
+
+.home8 {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    
+    
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://i.ibb.co/ZgL70MM/IMG-1859-min.jpg);
+     background-repeat: no-repeat;
+ 
+    background-position: center top;
+    background-size:cover;
+    
+    
+}
+
+.carousel-caption1 {
+
+right: 15%;
+bottom: 20px;
+left: 15%;
+z-index: 10;
+padding-top: 90px;
+padding-bottom: 20px;
+color: #fff;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+    padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+    top: 0;
+    bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+    padding: 0;
+}
+
+
+/* 
+
+for zoom animation 
+uncomment this part if you haven't added this code anywhere else
+
+*/
+/*
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out; 
+    transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+        opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+        opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+    opacity: 0;
+}
+*/
+
+@media screen and (max-width:1000px) {
+.video video {
+margin-left: 0px !important;
+width: 340px;
+}
+}
+
